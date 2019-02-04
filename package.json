@@ -1,0 +1,34 @@
+{
+  "name": "tdd-starter-ts",
+  "version": "1.0.0",
+  "description": "minimum starter config for tdd with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghp-dev/tdd-starter-ts.git"
+  },
+  "author": "ghp-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghp-dev/tdd-starter-ts/issues"
+  },
+  "homepage": "https://github.com/ghp-dev/tdd-starter-ts#readme",
+  "devDependencies": {
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "jasmine": "^3.3.1",
+    "karma": "^4.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "^4.0.0-beta.3",
+    "karma-typescript-es6-transform": "^1.0.4",
+    "typescript": "~3.2.2"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.3.8",
+    "mdn-polyfills": "^5.15.0"
+  }
+}
